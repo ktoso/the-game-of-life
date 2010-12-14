@@ -15,7 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e06e700e-776e-4eb9-9102-99afa6f56f65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/project/ca/Board.java" afterPath="$PROJECT_DIR$/src/pl/project/ca/Board.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/project/ca/Point.java" afterPath="$PROJECT_DIR$/src/pl/project/ca/Point.java" />
     </list>
     <ignored path="ca.iws" />
@@ -87,7 +86,7 @@
       <file leaf-file-name="Point.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="57" selection-start="1860" selection-end="1860" vertical-scroll-proportion="0.746336">
+            <state line="54" column="20" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.34759358">
               <folding />
             </state>
           </provider>
@@ -96,7 +95,7 @@
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="26" selection-start="875" selection-end="875" vertical-scroll-proportion="-13.4">
+            <state line="30" column="26" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +104,7 @@
       <file leaf-file-name="Program.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -215,23 +214,12 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-  </component>
-  <component name="PublishConfig">
-    <servers>
-      <server id="a7d32b10-bea4-4f67-ace7-8aa0c0941c28">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Program">
     <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true">
@@ -289,15 +277,7 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="SpecsRunConfiguration" factoryName="Specs">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="packagepath" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="sysFilter" value=".*" />
-      <setting name="exampleFilter" value=".*" />
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/usr/bin/flashplayer" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -305,7 +285,17 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/usr/bin/flashplayer" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -346,24 +336,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" />
       <option name="MAIN_CLASS_NAME" />
@@ -381,14 +353,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="FtpUpload" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -418,18 +382,11 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="version" value="false" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
+        <option name="FtpUpload" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -460,36 +417,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="e06e700e-776e-4eb9-9102-99afa6f56f65" name="Default" comment="" />
       <created>1292293292338</created>
       <updated>1292293292338</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-9" width="1924" height="1067" extended-state="6" />
+    <frame x="0" y="0" width="1364" height="741" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67103827" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942791" sideWeight="0.67103827" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -534,8 +492,8 @@
           <ID>JAVA</ID>
           <OriginalElement>pl.project.ca</OriginalElement>
           <nodes>
-            <node x="153.0" y="12.712890625">pl.project.ca.Pattern</node>
             <node x="79.30000000000001" y="190.712890625">pl.project.ca.GUI</node>
+            <node x="153.0" y="12.712890625">pl.project.ca.Pattern</node>
             <node x="54.80000000000001" y="111.712890625">pl.project.ca.Board</node>
             <node x="66.18055555555557" y="269.712890625">pl.project.ca.Program</node>
             <node x="37.0" y="12.712890625">pl.project.ca.Point</node>
@@ -561,17 +519,17 @@
               <point x="221.25" y="165.712890625" />
               <point x="29.25" y="14.5" />
             </edge>
-            <edge source="pl.project.ca.Board" target="pl.project.ca.Pattern">
-              <point x="26.25" y="-14.5" />
-              <point x="116.05000000000001" y="91.712890625" />
-              <point x="201.75" y="91.712890625" />
-              <point x="9.75" y="14.5" />
-            </edge>
             <edge source="pl.project.ca.Program" target="pl.project.ca.GUI">
               <point x="21.5" y="-14.5" />
               <point x="130.68055555555557" y="244.712890625" />
               <point x="121.30000000000001" y="244.712890625" />
               <point x="14.0" y="14.5" />
+            </edge>
+            <edge source="pl.project.ca.Board" target="pl.project.ca.Pattern">
+              <point x="26.25" y="-14.5" />
+              <point x="116.05000000000001" y="91.712890625" />
+              <point x="201.75" y="91.712890625" />
+              <point x="9.75" y="14.5" />
             </edge>
             <edge source="pl.project.ca.Point" target="pl.project.ca.Point">
               <point x="-13.200000000000003" y="14.5" />
@@ -592,12 +550,17 @@
               <point x="17.5" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="119.0" y="164.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="119.0" y="165.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="52" selection-start="815" selection-end="815" vertical-scroll-proportion="-0.70800453" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Pattern.java">
@@ -607,30 +570,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="815" selection-end="815" vertical-scroll-proportion="-0.70800453">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="26" selection-start="875" selection-end="875" vertical-scroll-proportion="-13.4">
+        <state line="30" column="26" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="57" selection-start="1860" selection-end="1860" vertical-scroll-proportion="0.746336">
+        <state line="54" column="20" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.34759358">
           <folding />
         </state>
       </provider>

@@ -11,8 +11,11 @@ public class Point {
   private final int ALIVE = 1;
   private final int DEAD  = 0;
 
-  private final int MIN_FRIENDS = 2;
-  private final int MAX_FRIENDS = 3;
+  private final int MIN_STAY_FRIENDS = 2;
+  private final int MAX_STAY_FRIENDS = 5;
+
+  private final int MIN_BIRTH_FRIENDS = 4;
+  private final int MAX_BIRTH_FRIENDS = 8;
 
   public Point() {
     currentState = 0;
@@ -33,9 +36,9 @@ public class Point {
   }
 
   public void calculateNewState() {
-    //TODO: insert logic which updates according to currentState and number of active neighbors
+    //wersja z miastem otoczonym murem
     if (getState() == ALIVE) {
-      nextState = shouldThisDie() ? DEAD : ALIVE;
+      nextState = shouldStayAlive() ? ALIVE : DEAD;
     } else {//(getState() == DEAD){
       nextState = shouldThisBeBorn() ? ALIVE : DEAD;
     }
@@ -49,22 +52,21 @@ public class Point {
     neighbors.add(nei);
   }
 
-  //TODO: write method counting all active neighbors of THIS point
-  private boolean shouldThisDie() {
+  private boolean shouldStayAlive() {
     int aliveFriends = countAliveFriends();
 
-    boolean shouldDie = aliveFriends > MAX_FRIENDS || aliveFriends < MIN_FRIENDS;
-    System.out.println("alive friends: " + aliveFriends + "; " + (shouldDie ? "dying" : "living"));
+    boolean shouldLive = aliveFriends >= MIN_STAY_FRIENDS && aliveFriends <= MAX_STAY_FRIENDS;
+    System.out.println("alive friends: " + aliveFriends + "; " + (shouldLive ? "living" : "dying"));
 
-    return shouldDie;
+    return shouldLive;
   }
 
   private boolean shouldThisBeBorn() {
     int aliveFriends = countAliveFriends();
-    boolean shouldStart = aliveFriends == MAX_FRIENDS;
-    System.out.println("alive friends: " + aliveFriends + "; " + (shouldStart ? "starting" : "still dead"));
+    boolean shouldBeBorn = aliveFriends  >= MIN_BIRTH_FRIENDS && aliveFriends <= MAX_BIRTH_FRIENDS;
+    System.out.println("alive friends: " + aliveFriends + "; " + (shouldBeBorn ? "starting" : "still dead"));
 
-    return shouldStart;
+    return shouldBeBorn;
   }
 
   private int countAliveFriends() {
