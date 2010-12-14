@@ -4,18 +4,11 @@ import java.util.ArrayList;
 
 public class Point {
   private ArrayList<Point> neighbors;
-  private int              currentState;
-  private int              nextState;
-  private int numStates = 2;
+  private int currentState;
+  private int nextState;
 
-  private final int ALIVE = 1;
-  private final int DEAD  = 0;
-
-  private final int MIN_STAY_FRIENDS = 2;
-  private final int MAX_STAY_FRIENDS = 5;
-
-  private final int MIN_BIRTH_FRIENDS = 4;
-  private final int MAX_BIRTH_FRIENDS = 8;
+  private final int numStates = 10;
+  private final int riseStates[] = {1, 2, 3, 4, 5};
 
   public Point() {
     currentState = 0;
@@ -36,12 +29,8 @@ public class Point {
   }
 
   public void calculateNewState() {
-    //wersja z miastem otoczonym murem
-    if (getState() == ALIVE) {
-      nextState = shouldStayAlive() ? ALIVE : DEAD;
-    } else {//(getState() == DEAD){
-      nextState = shouldThisBeBorn() ? ALIVE : DEAD;
-    }
+    //fala
+    nextState = nextStateByNeighbours();
   }
 
   public void changeState() {
@@ -52,32 +41,44 @@ public class Point {
     neighbors.add(nei);
   }
 
-  private boolean shouldStayAlive() {
-    int aliveFriends = countAliveFriends();
+  private int nextStateByNeighbours() {
+    int aliveLeftFriendHeight = countAliveFriendsWithAnyOfStates(riseStates);
 
-    boolean shouldLive = aliveFriends >= MIN_STAY_FRIENDS && aliveFriends <= MAX_STAY_FRIENDS;
-    System.out.println("alive friends: " + aliveFriends + "; " + (shouldLive ? "living" : "dying"));
-
-    return shouldLive;
+    if (aliveLeftFriendHeight > 0) { // jest fala, kontunuuj
+      return aliveLeftFriendHeight + 1;
+    } else {// nie ma fali z lewej, malej
+      return isAlive() ? currentState - 1 /*fall down*/ : 0/* stay dead*/;
+    }
   }
 
-  private boolean shouldThisBeBorn() {
-    int aliveFriends = countAliveFriends();
-    boolean shouldBeBorn = aliveFriends  >= MIN_BIRTH_FRIENDS && aliveFriends <= MAX_BIRTH_FRIENDS;
-    System.out.println("alive friends: " + aliveFriends + "; " + (shouldBeBorn ? "starting" : "still dead"));
-
-    return shouldBeBorn;
+  private boolean isAlive() {
+    return currentState > 0;
   }
 
-  private int countAliveFriends() {
-    int aliveFriends = 0;
-
-    System.out.print("friends: " + neighbors.size() + "; ");
+  private int countAliveFriendsWithAnyOfStates(int... requiredStates) {
     for (Point neighbor : neighbors) {
-      if (neighbor.getState() == 1) {
-        ++aliveFriends;
+      for (int rqState : requiredStates) {
+        if (neighbor.getState() == rqState) {
+          return rqState;
+        }
       }
     }
-    return aliveFriends;
+
+    return 0;
   }
+
+//  private int countAliveFriendsWithAnyOfStates(int... states) {
+//    int aliveFriends = 0;
+//
+//    System.out.print("friends: " + neighbors.size() + "; ");
+//    for (Point neighbor : neighbors) {
+//      for (int state : states) {
+//        if (neighbor.getState() == state) {
+//          ++aliveFriends;
+//        }
+//      }
+//    }
+//
+//    return aliveFriends;
+//  }
 }
