@@ -28,7 +28,9 @@ public class Point {
 
   public void calculateNewState() {
     //TODO: insert logic which updates according to currentState and number of active neighbors
-
+    if (shouldThisDie()) {
+      changeState();
+    }
   }
 
   public void changeState() {
@@ -40,4 +42,9 @@ public class Point {
   }
 
   //TODO: write method counting all active neighbors of THIS point
+  private boolean shouldThisDie() {
+    System.out.println(neighbors.size());
+    int neighborsCount = neighbors.size();
+    return neighborsCount > 3 || neighborsCount < 2;
+  }
 }

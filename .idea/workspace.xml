@@ -15,10 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e06e700e-776e-4eb9-9102-99afa6f56f65" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/project/ca/Pattern.java" afterPath="$PROJECT_DIR$/src/pl/project/ca/Pattern.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/project/ca/Board.java" afterPath="$PROJECT_DIR$/src/pl/project/ca/Board.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/project/ca/Point.java" afterPath="$PROJECT_DIR$/src/pl/project/ca/Point.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pl/project/ca/Program.java" afterPath="$PROJECT_DIR$/src/pl/project/ca/Program.java" />
     </list>
     <ignored path="ca.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,6 +35,21 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/pl/project/ca/Point.java" line="30" class="pl.project.ca.Point" package="pl.project.ca">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -77,35 +90,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GUI.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/project/ca/GUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Program.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Program.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5887372">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Pattern.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Pattern.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,10 +99,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Point.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Point.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+            <state line="45" column="39" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.7609921">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="64" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Program.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="12" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUI.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/project/ca/GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="52" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,11 +151,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/pl/project/ca/Board.java" />
         <option value="$PROJECT_DIR$/src/pl/project/ca/GUI.java" />
-        <option value="$PROJECT_DIR$/src/pl/project/ca/Point.java" />
         <option value="$PROJECT_DIR$/src/pl/project/ca/Pattern.java" />
         <option value="$PROJECT_DIR$/src/pl/project/ca/Program.java" />
+        <option value="$PROJECT_DIR$/src/pl/project/ca/Board.java" />
+        <option value="$PROJECT_DIR$/src/pl/project/ca/Point.java" />
       </list>
     </option>
   </component>
@@ -265,7 +278,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ca" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50340" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -478,6 +497,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -491,10 +511,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67103827" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -535,9 +554,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+        <state line="39" column="63" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="52" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -549,43 +582,43 @@
           <OriginalElement>pl.project.ca</OriginalElement>
           <nodes>
             <node x="153.0" y="12.712890625">pl.project.ca.Pattern</node>
-            <node x="79.3" y="190.712890625">pl.project.ca.GUI</node>
-            <node x="54.8" y="111.712890625">pl.project.ca.Board</node>
+            <node x="79.30000000000001" y="190.712890625">pl.project.ca.GUI</node>
+            <node x="54.80000000000001" y="111.712890625">pl.project.ca.Board</node>
             <node x="66.18055555555557" y="269.712890625">pl.project.ca.Program</node>
             <node x="37.0" y="12.712890625">pl.project.ca.Point</node>
           </nodes>
           <notes />
           <edges>
             <edge source="pl.project.ca.Pattern" target="pl.project.ca.Pattern">
-              <point x="-9.75" y="14.5" />
-              <point x="182.25" y="71.712890625" />
-              <point x="123.0" y="71.712890625" />
-              <point x="123.0" y="19.962890625" />
-              <point x="-39.0" y="-7.25" />
+              <point x="-29.25" y="14.5" />
+              <point x="162.75" y="61.712890625" />
+              <point x="133.0" y="61.712890625" />
+              <point x="133.0" y="34.462890625" />
+              <point x="-39.0" y="7.25" />
             </edge>
             <edge source="pl.project.ca.Board" target="pl.project.ca.Point">
-              <point x="-8.75" y="-14.5" />
-              <point x="81.05" y="91.712890625" />
-              <point x="83.19999999999999" y="91.712890625" />
-              <point x="13.199999999999989" y="14.5" />
+              <point x="8.75" y="-14.5" />
+              <point x="98.55000000000001" y="91.712890625" />
+              <point x="96.4" y="91.712890625" />
+              <point x="26.400000000000006" y="14.5" />
             </edge>
             <edge source="pl.project.ca.GUI" target="pl.project.ca.Pattern">
-              <point x="18.66666666666667" y="-14.5" />
+              <point x="18.666666666666657" y="-14.5" />
               <point x="125.96666666666667" y="165.712890625" />
               <point x="221.25" y="165.712890625" />
               <point x="29.25" y="14.5" />
             </edge>
             <edge source="pl.project.ca.Board" target="pl.project.ca.Pattern">
               <point x="26.25" y="-14.5" />
-              <point x="116.05" y="91.712890625" />
+              <point x="116.05000000000001" y="91.712890625" />
               <point x="201.75" y="91.712890625" />
               <point x="9.75" y="14.5" />
             </edge>
             <edge source="pl.project.ca.Program" target="pl.project.ca.GUI">
-              <point x="-21.5" y="-14.5" />
-              <point x="87.68055555555557" y="244.712890625" />
-              <point x="93.3" y="244.712890625" />
-              <point x="-14.0" y="14.5" />
+              <point x="21.5" y="-14.5" />
+              <point x="130.68055555555557" y="244.712890625" />
+              <point x="121.30000000000001" y="244.712890625" />
+              <point x="14.0" y="14.5" />
             </edge>
             <edge source="pl.project.ca.Point" target="pl.project.ca.Point">
               <point x="-13.200000000000003" y="14.5" />
@@ -606,42 +639,26 @@
               <point x="17.5" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.7000000000000006" x="119.0" y="133.99999999999994" />
-          <SelectedNodes>
-            <node>pl.project.ca.GUI</node>
-          </SelectedNodes>
+          <settings layout="Hierarchic Group" zoom="1.0" x="119.0" y="164.5" />
+          <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Point.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="63" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+        <state line="65" column="64" selection-start="1790" selection-end="1790" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/project/ca/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5887372">
+        <state line="45" column="39" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.7609921">
           <folding />
         </state>
       </provider>

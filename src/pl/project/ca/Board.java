@@ -11,7 +11,6 @@ import java.awt.event.MouseEvent;
  * Board with Points that may be expanded (with automatic change of cell
  * number) with mouse event listener
  */
-
 public class Board extends JComponent implements MouseInputListener, ComponentListener {
   private static final long serialVersionUID = 1L;
   private Point[][] points;
@@ -27,15 +26,15 @@ public class Board extends JComponent implements MouseInputListener, ComponentLi
 
   // single iteration
   public void iteration() {
-    for (int x = 0; x < points.length; ++x) {
-      for (int y = 0; y < points[x].length; ++y) {
-        points[x][y].calculateNewState();
+    for (Point[] point : points) {
+      for (Point aPoint : point) {
+        aPoint.calculateNewState();
       }
     }
 
-    for (int x = 0; x < points.length; ++x) {
-      for (int y = 0; y < points[x].length; ++y) {
-        points[x][y].changeState();
+    for (Point[] point : points) {
+      for (Point aPoint : point) {
+        aPoint.changeState();
       }
     }
     this.repaint();
@@ -43,9 +42,9 @@ public class Board extends JComponent implements MouseInputListener, ComponentLi
 
   // clearing board
   public void clear() {
-    for (int x = 0; x < points.length; ++x) {
-      for (int y = 0; y < points[x].length; ++y) {
-        points[x][y].setState(0);
+    for (Point[] point : points) {
+      for (Point aPoint : point) {
+        aPoint.setState(0);
       }
     }
     this.repaint();
@@ -63,7 +62,18 @@ public class Board extends JComponent implements MouseInputListener, ComponentLi
     for (int x = 0; x < points.length; ++x) {
       for (int y = 0; y < points[x].length; ++y) {
         //TODO: initialize the neighborhood of points[x][y] cell
+        tryToAdd(points[x][y],x-1,y+1); tryToAdd(points[x][y],x, y+1); tryToAdd(points[x][y],x+1,y+1);
+        tryToAdd(points[x][y],x-1,y); /*                            */ tryToAdd(points[x][y], x+1, y);
+        tryToAdd(points[x][y],x-1,y-1); tryToAdd(points[x][y],x, y-1); tryToAdd(points[x][y], x+1, y-1);
       }
+    }
+  }
+
+  private void tryToAdd(Point addTo, int x, int y){
+    try{
+    addTo.addNeighbor(points[x][y]);
+    }catch(ArrayIndexOutOfBoundsException ignore){
+      //ignore
     }
   }
 
